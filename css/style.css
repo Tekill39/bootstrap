@@ -208,6 +208,31 @@ height: 211px;
     text-align: center;  
    }
    .icons i{
-       
-       
-   }
+       display: flex;
+       justify-content: center;
+       }
+       .team h4{
+           font-size: 20px;
+           font-family: 'OpenSans-Semibold';
+           margin-top: 30px;
+       }
+       .team p{
+           margin-top: 30px;
+           font-size: 15px;
+       }
+       .icons i:nth-child(1){
+        color:#f0f1f1;
+       }
+       .icons a i {
+           transition: 0.3s;
+       }
+       .icons i:nth-child(2){
+        color:#00897b;
+       }
+    
+       .icons a:hover i:nth-child(1){
+        color:#3949ab;
+       }
+       .icons a:hover i:nth-child(2){
+        color:#fff;
+       }
