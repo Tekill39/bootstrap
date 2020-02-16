@@ -236,3 +236,27 @@ height: 211px;
        .icons a:hover i:nth-child(2){
         color:#fff;
        }
+       .team img{
+           margin: 0 auto;
+           max-width: 340px;
+       }
+       .multiple-items{
+margin-top: 125px;
+       }
+       .dots-style{
+           margin-top: 115px;
+           display: flex;
+           justify-content: center;
+       }
+       .dots-style button{
+           background:#00897b;
+           border: none;
+           border-radius: 50%;
+           font-size: 0;
+           height: 15px;
+           width: 15px;
+           margin: 5px;
+       }
+       .dots-style li[class="slick-active"] button{
+        background:#3949ab;
+       }
