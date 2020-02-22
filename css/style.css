@@ -316,3 +316,17 @@ font-weight: bold;
 .footer .about__text{
     color : white;
 }
+.fa fa-map-marker{
+font-size: 62px;
+color: white;
+}
+.cicle{
+    background:#3949ab ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+}
