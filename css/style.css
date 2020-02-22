@@ -260,3 +260,59 @@ margin-top: 125px;
        .dots-style li[class="slick-active"] button{
         background:#3949ab;
        }
+.left > div:first-child{
+ order:1;
+}
+.left > div:last-child{
+ order:2;
+}
+.right > div:first-child{
+order:2;
+}
+.right > div:last-child{
+order:1;
+}
+.blog{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.blog a {
+font-size: 25px;
+color:#00897b;
+font-family: 'OpenSans-Semibold';
+}
+.blog i{
+    margin-right: 15px;
+}
+.blog span{
+font-size: 17px;
+font-family: 'OpenSans-Semibold';
+margin-right: 35px;
+}
+.blog div{
+    margin-top: 15px;
+    margin-bottom:20px;
+}
+.button_blog{
+    width: 220px;
+    height: 70px;
+    text-transform: uppercase;
+    margin-top: 125px;
+    border: none;
+    color:white;
+    font-size: 20px;
+    background:#00897b;
+    font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+.footer{
+    padding-top: 165px;
+    padding-bottom: 125px;
+    color: white;
+    background-image: url(../img/footer.png);
+    text-align: center;
+}
+.footer .about__text{
+    color : white;
+}
