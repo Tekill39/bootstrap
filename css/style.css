@@ -173,34 +173,68 @@ li {
        text-align:center;
    }
    /*Цены*/
-   .pricing {
+.pricing {
     padding-top: 165px;
     padding-bottom: 125px;
     color: black;
     background-color:#f0f1f1;
     text-align: center;
 }
-   .price{
+.price{
 background: white;
    }
-   .price__head{
+.price__head{
 background-image: url(../img/cover.png);
+color: white;
 padding-top: 40px;
 padding-bottom: 65px;
 background-size: cover;
 background-repeat: no-repeat;
 height: 211px;
-
-
+font-size: 50px;
 }
+.price__head sub{
+    font-size: 17px;
+    vertical-align: middle;
+    }
+.price__head sup{
+    font-size: 25px;
+    vertical-align: middle;
+    }
 .price__head p{
     font-size: 25px;
+    color: white;
 }
-   .price__body{
-   
+.price__body {
+    font-size: 17px;
+    color:#212121;
+    padding-top: 20px;
+}
+.price__body ul li {
+    padding-top: 28px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+    max-width: 175px;
+   border-bottom: 1px solid #3949ab;
    }
    .price__footer{
+padding: 60px 20px;
    }
+   .price__footer button{
+    color:#212121;
+    background: transparent;
+    width: 180px;
+    height: 60px;
+    border:2px solid #212121;
+    font-size: 20px;
+    cursor: pointer;
+       }
+       .price__footer button:hover{
+        text-transform: uppercase;
+        color:white;
+        background:  #00897b;
+        border:none;
+        }
    .team {
     padding-top: 165px;
     padding-bottom: 125px;
