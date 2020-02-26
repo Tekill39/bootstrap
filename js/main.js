@@ -66,5 +66,30 @@ $(document).ready(function() {
       $('ul.menu a[href^="#"').css({'color':'#212121'});
       $(this).css({'color':'#3949ab'});
       return false;
-    })        
+    })       
+     /*выпадающее menu*/
+     $('.menu-icon').click(function(){
+       $('nav').slideToggle(500);
+       $('ul').css({
+         'display':'flex','flex-direction':'column'})
+       if($('.menu-icon').html()=='<i class="fa fa-bars" aria-hidden="true"></i>'){
+         $(this).html('<i class="fa fa-times" aria-hidden="true"></i>')
+       }else{
+        $(this).html('<i class="fa fa-bars" aria-hidden="true"></i>')
+       }
+     })
+
+     
+     /*Кнопка вверх*/
+     $(window).scroll(function(){
+       if ($(this).scrollTop() !=0)
+       $('#toTop').fadeIn();
+       else 
+       $('#toTop').fadeOut();
+     });
+     $('#toTop').click(function(){
+       $('body,html').animate({
+         scrollTop:0
+       },800);
+     }); 
 })
