@@ -1,3 +1,4 @@
+/*Портфолио Last work */
 $(document).ready(function() {
     $('.button[filter]').click(function() {
       if($(this).attr('filter')=='all') {
@@ -19,6 +20,7 @@ $(document).ready(function() {
             $('.filter > div[filter='+filter+']').show(300);
          }
     })  
+    /*Слайдер*/
     $('.multiple-items').slick({
       infinite: true,
       slidesToShow: 3,
@@ -54,5 +56,15 @@ $(document).ready(function() {
         // settings: "unslick"
         // instead of a settings object
       ]
-    });         
+    }); 
+    /*menu*/
+    $('ul.menu a[href^="#"').click(function(){
+      var target=$(this).attr('href');
+      $('html,body').animate({
+        scrollTop:$(target).offset().top
+      },500);
+      $('ul.menu a[href^="#"').css({'color':'#212121'});
+      $(this).css({'color':'#3949ab'});
+      return false;
+    })        
 })
