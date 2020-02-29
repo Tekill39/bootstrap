@@ -70,7 +70,7 @@ $(document).ready(function() {
      /*выпадающее menu*/
      $('.menu-icon').click(function(){
        $('nav').slideToggle(500);
-       $('ul').css({
+       $('ul.menu').css({
          'display':'flex','flex-direction':'column'})
        if($('.menu-icon').html()=='<i class="fa fa-bars" aria-hidden="true"></i>'){
          $(this).html('<i class="fa fa-times" aria-hidden="true"></i>')

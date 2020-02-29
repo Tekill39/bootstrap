@@ -438,3 +438,44 @@ color: white;
         padding: 10px;
     }
   }
+  @media screen and (max-width:480px){
+    .header{
+        padding: 20px;
+    }
+    .header__title{
+        font-size: 45px;
+    }
+    .header__text{
+        margin-bottom: 20px;
+    }
+    .button{
+        margin-bottom: 10px;
+    }
+    .about__text{
+        margin-bottom: 20px;
+    }
+    .services{
+        padding: 20px;
+    }
+    .portfolio{
+        padding: 20px;
+    }
+    .filter{
+        padding: 20px;
+    }
+    .pricing{
+        padding: 20px;
+    }
+    .team{
+        padding: 20px 0;
+    }
+    .dots-style {
+        margin-top: 11px;
+    }
+    .button_blog {
+      margin-top: 15px;
+    }
+    .footer{
+        padding: 20px;
+    }
+}
